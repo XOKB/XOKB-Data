@@ -173,3 +173,7 @@ ENV/
 # Temporary files created by markdown
 *.utf8.md
 *.knit.md
+
+./tmp
+*.tmp
+*.log
