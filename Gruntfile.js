@@ -29,3 +29,6 @@
  * --/The Heart of Build System/-- of "XOKB®-Data".
  * ___________________________________________________________________________
  */
+
+
+// "disallowMultipleSpaces": {"allowEOLComments": true}
