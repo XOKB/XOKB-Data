@@ -94,3 +94,9 @@ var pkg  = JSON.parse(fs.readFileSync('./package.json', {
 var npm  = JSON.parse(fs.readFileSync('./secret.json', {
   encoding: "utf8"
 }));
+
+// To get build system(s) information.
+///-----------------------------------
+var seed  = JSON.parse(fs.readFileSync('./seed.json', {
+  encoding: "utf8"
+}));
