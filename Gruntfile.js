@@ -122,3 +122,26 @@ var license    = [
 ].map(function(s) {
   return s.replace(/\s+$/, '');
 }).join("\n");
+
+///-------------------------
+// A smart banner function.
+///------- GPL-3.0 ---------
+var banner     = [
+  '/*!                                                                                                  ',
+  ' * ——————————————————                                                                                ',
+  ' * XOKB®-Data: v' + (pkg).version                                                                     ,
+  ' * ——————————————————                                                                                ',
+  ' * Data of XOKB — A manually curated dedicated xanthomonas oryzae database.                          ',
+  ' * From the Desk of Prabhat Kumar — CEO, Founder & Scientist.                                        ',
+  ' * -----------------------------------------------------------------------------                     ',
+  ' * Copyright © 2006 - ' + new Date().getFullYear() + ', Prabhat Kumar, All rights reserved.          ',
+  ' * Copyright © 2014 - ' + new Date().getFullYear() + ', Sequømics Research, All rights reserved.     ',
+  ' * Copyright © 2014 - ' + new Date().getFullYear() + ', Sequømics Corporation, All rights reserved.  ',
+  ' * -----------------------------------------------------------------------------                     ',
+  ' * Released under the GNU General Public License (http://www.gnu.org/licenses/).                     ',
+  ' */                                                                                                  ',
+  '\n',
+].map(function(s) {
+  return s.replace(/\s+$/, '');
+}).join("\n");
+// ----------------------------------------------------------------------------------------------------------
