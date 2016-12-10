@@ -102,3 +102,4 @@ var seed  = JSON.parse(fs.readFileSync('./seed.json', {
 }));
 
 var message    = "SEED™ — Supported under Mac OS X and Linux only!";
+var contact    = "database@sequomics.com";
