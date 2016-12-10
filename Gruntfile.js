@@ -35,3 +35,4 @@
 // "disallowSemicolons": false
 // "requireSemicolons": true
 // "requireSpaceAfterLineComment": { "allExcept": ["#", "="] }
+// "disallowAnonymousFunctions": true
