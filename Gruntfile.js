@@ -207,3 +207,20 @@ module.exports = function(grunt) {
   // -----------------------------------------------------
   // Display the elapsed execution time of grunt tasks.
   require('time-grunt')(grunt);
+  
+  // Utility to load the different option files,
+  // based on their names —————————————————————.
+  function loadConfig(path) {
+    var object = {};
+    var key;
+    
+    // Perform a synchronous glob search.
+    // glob.sync(pattern, [options]).
+    glob.sync('*', {
+      cwd: path
+    }).forEach(function(option) {
+      key = option.replace(/\.js$/,'');
+      object[key] = require(path + option);
+    });
+    return object;
+  }
