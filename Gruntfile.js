@@ -192,3 +192,9 @@ module.exports = function(grunt) {
   
   // Assigning `grunt.util._` to `_`.
   var _ = grunt.util._;
+  
+  // A regular expression.
+  // ---------------------
+  RegExp.quote = function(string) {
+    return string.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&');
+  };
