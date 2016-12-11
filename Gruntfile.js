@@ -202,3 +202,8 @@ module.exports = function(grunt) {
   // To write process log(s).
   // ------------------------
   var contents = null;
+  
+  // 1. time-grunt ——> $ npm install time-grunt --save-dev
+  // -----------------------------------------------------
+  // Display the elapsed execution time of grunt tasks.
+  require('time-grunt')(grunt);
