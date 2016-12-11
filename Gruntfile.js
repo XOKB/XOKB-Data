@@ -198,3 +198,7 @@ module.exports = function(grunt) {
   RegExp.quote = function(string) {
     return string.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&');
   };
+  
+  // To write process log(s).
+  // ------------------------
+  var contents = null;
