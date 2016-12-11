@@ -183,3 +183,6 @@ function dateFormat(date, format) {
 // All Grunt Operations Defined... |------------------------------------------| 10/Dec/2016 | SEED™ — Örebro.
 //                           Copyright © 2016, Prabhat Kumar, All rights reserved.
 // ----------------------------------------------------------------------------------------------------------
+
+// A Grunt wrapper function to {exports}, as a module in to Node environment.
+module.exports = function(grunt) {
