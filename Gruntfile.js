@@ -186,3 +186,6 @@ function dateFormat(date, format) {
 
 // A Grunt wrapper function to {exports}, as a module in to Node environment.
 module.exports = function(grunt) {
+  
+  // Force use of Unix newlines.
+  grunt.util.linefeed = '\n';
